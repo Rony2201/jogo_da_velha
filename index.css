@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffddfa;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+h1 {
+    text-align: center;
+}
+hr {
+    font-weight: bold;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.game button {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 100px;
+    background: rgb(199, 255, 236);
+}
